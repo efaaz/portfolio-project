@@ -66,8 +66,8 @@ const Chip = ({ text, selected, setSelected }) => {
       onClick={handleClick}
       className={`${
         selected
-          ? "text-maheenBB1 font-medium"
-          : "text-maheenWT1 font-medium hover:transition hover:duration-500 hover:bg-maheenWT1 hover:text-maheenBB1"
+          ? "text-efazBB1 font-medium"
+          : "text-efazWT1 font-medium hover:transition hover:duration-500 hover:bg-efazWT1 hover:text-efazBB1"
       }  transition-colors px-3 py-2 rounded-full relative`}
     >
       <span className="relative z-10">{text}</span>
@@ -75,7 +75,7 @@ const Chip = ({ text, selected, setSelected }) => {
         <motion.span
           layoutId="pill-tab"
           transition={{ type: "spring", duration: 0.5 }}
-          className="absolute inset-0 z-0 bg-maheenWT1 rounded-full"
+          className="absolute inset-0 z-0 bg-efazWT1 rounded-full"
         ></motion.span>
       )}
     </button>
